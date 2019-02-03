@@ -7,7 +7,7 @@ public class Kuehlschrank {
         kuehlschrank = new Lebensmittel[size];
         fuellstand = 0;
     }
-
+        test
     public void einkaufen() {
         kuehlschrank[fuellstand++] = (new Mate("Club Mate"));
         kuehlschrank[fuellstand++] = (new Brot(1, 750));
